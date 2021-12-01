@@ -1,0 +1,12 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+li{
+  @apply hover:opacity-50 hover:underline transition  duration-500
+}

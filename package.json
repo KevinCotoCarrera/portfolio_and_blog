@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "date-fns": "^2.27.0",
+    "framer-motion": "4",
+    "gray-matter": "^4.0.3",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "styled-jsx": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
