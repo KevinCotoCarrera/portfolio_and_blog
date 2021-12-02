@@ -10,8 +10,8 @@ import Toggle from '../components/ThemeToggle';
 import CardProject from '../components/CardProject';
 import Link from 'next/link'
 import warapo from '../public/warapo.jpg'
-import croco_sign from '../public/croco-sign.jpg'
-import justship from '../public/justship.jpg'
+import croco_sign from '../public/croco-sign.png'
+import justship from '../public/justship.png'
 
 
 
@@ -36,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ul className='flex flex-row justify-center md:justify-end
-      pt-4 gap-8 md:gap-4 md:mr-20'
+      pt-4 gap-8 md:gap-4 md:mr-20 md:text-lg'
     
       >        
         <li><a href="#">Projects</a></li>
@@ -51,23 +51,23 @@ export default function Home() {
       <div className="flex flex-col items-center gap-2">
           <h1 className=" md:text-left md:mr-32 xl:mr-56
           mt-10 md:mt-20 
-          text-3xl md:text-5xl lg:text-6xl xl:text-7xl"
+          text-3xl md:text-7xl lg:text-9xl"
           
           
           >
             Hello. <br></br> <span>I am Kevin</span> 
           </h1>
           
-          <Tooltip className=" md:text-lg xl:text-xl md:text-left -mr-5 md:mr-10"label="Working with React and Phoenix" hasArrow>Web Developer</Tooltip>
+          <Tooltip className="md:text-left -mr-5 md:mr-10"label="Working with React and Phoenix" hasArrow><span className="text-base md:text-2xl lg:text-4xl">Web Developer</span></Tooltip>
         </div>
         <div className="flex justify-center md:absolute md:right-28 md:top-24">
           <div className="flex justify-center items-center
           rounded-full border-2 dark:border-pink-300 border-pink-500 animate-pulse
-          w-32 h-32 lg:w-48 lg:h-48 text-lg lg:text-xl font-semibold mt-7 md:mt-0" 
+          w-32 h-32 lg:w-48 lg:h-48 text-lg lg:text-xl font-semibold mt-7 md:mt-0 md:text-xl" 
           >See my work</div>
         </div>
       <div className='flex justify-center mt-7 md:mt-14'>
-        <p className='w-56 md:w-72 text-left'>Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsum</p>
+        <p className='w-56 md:w-72 text-left md:text-lg'>Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsumLorem impsum Lorem impsum Lorem impsum</p>
       </div>
       <div className='flex flex-col items-center gap-10 mt-10'>
       <h2 className="text-3xl">Projects<span className='text-pink-500 dark:text-pink-300 h-5 absolute -mt-11  text-7xl pl-2 animate-pulse '>__</span></h2>
@@ -76,7 +76,7 @@ export default function Home() {
       name='Warapo'
       type='Freelancer Project'
       text="A freelancer project using Gatsby, ChakraUI, Graphql, Woocommerce. The website's goal is sell merchandasing and reserve tickets to parties"
-      link='https://warapo-project.vercel.app/'
+      link='https://warapocuba.com/'
       ></CardProject>
       <CardProject
        name='Crocosign'

@@ -27,7 +27,7 @@ export default function CardProject({img, name, type, text, link}) {
             transition: '1s'
         }}>
         <Box
-          h={'150px','250px'}
+          height={['250', '300']}
           bg={'gray.100'}
           mt={-6}
           mx={-6}
@@ -35,12 +35,11 @@ export default function CardProject({img, name, type, text, link}) {
           pos={'relative'}>
           <Image
             src={img}
-            layout={'fill'}
-          />
+            layout={'fill'}          />
         </Box>
         <Stack>
           <Text
-            color={'green.500'}
+            color={'pink.300'}
             textTransform={'uppercase'}
             fontWeight={800}
             fontSize={'sm'}
